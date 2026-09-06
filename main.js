@@ -1,9 +1,4 @@
-/*1. confirm balance is greater than 0. If not prompt user to depost funds.  
-2. determine amount to bet and confirm within min and max bet amount
-3. spin the slot machine.
-4. Confirm if user won or loss. 
-5. Give user winnings and add to balance. 
-6. Start game again, or determine if user once to quit game.*/
+
 let balance = 1000;
 const symbol = [" A", "B", "C","D", "E" ]
 const maxButton = document.getElementById('maxBet')
