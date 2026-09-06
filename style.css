@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after{
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+html{
+    font-size: 62.50%;
+}
+body{
+    font-size: 1.6rem;
+    color: black;
+    background-image: url(outerspace.jpg);
+      background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    color: rgb(205, 30, 215);
+    font-size: 5rem;
+    font-weight: 700;
+}
+.reelContainer{
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+    height: 30rem;
+    margin-left: 14rem;
+    border: 2px black solid;
+
+    background: rgba(81, 26, 198, 0.5);
+}
+.divRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+
+
+}
+.reel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22rem;
+    height:12rem;
+    border: 2px black solid;
+    background: rgba(115, 20, 129, 0);
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(205, 30, 215);
+}
+
+#spinButton{
+    align-self: center;
+    width: 30%;
+    height: 3rem;
+    margin-top: 1rem;
+
+}
+.bottomSection{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+#moneyDisplay{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(205, 0, 215);
+
+}
+
+#message{
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(205, 30, 215);
+    text-align: center;
+    margin-top: 3rem;
+
+}
+#maxBet, #minBet{
+    background: rgba(115, 20, 129, 0.5);
+    color:rgb(205, 0, 215);
+}
